@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+
+  --color-background: #0F172A;
+  --color-bar: #38BDF8;
+  --color-compare:#F97316;
+  --color-swap:#EF4444;
+  --color-sorted:#22C55E;
+  --color-text:#E5E7EB;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+}
+
+
+
+/* Hide scrollbar
+::-webkit-scrollbar {
+display: none;
+} */

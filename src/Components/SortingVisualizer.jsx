@@ -75,7 +75,7 @@ const SortingVisualizer = ({ algorithm }) => {
   return (
     <>
       {/* Bars */}
-      <div className="flex items-end gap-1 h-80 mt-10 border md:w-1/2">
+      <div className="flex items-end gap-1 h-80 mt-10 ">
         {array.map((val, idx) => {
           let color = "bg-[var(--color-bar)]";
           if (sorted.includes(idx)) color = "bg-[var(--color-sorted)]";
